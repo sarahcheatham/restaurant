@@ -1,0 +1,119 @@
+:root {
+    --white: #fff;
+    --warm-white: #fdfbed;
+    --white-yellow: #fefef3;
+    --white-pink: #f0e6e3;
+    --white-blue: #E5EBEF;
+    --white-gray: #e4e4e2;
+    --white-teal: #e8f7f0;
+    --white-green: #e0e7e3;
+    --light-green: #ddeeda;
+    --light-pink: #efd7d0;
+    --light-coral: #ffe3d1;
+    --light-gray: #d1d0ca;
+    --muted-blue: #abb8bf;
+    --muted-teal: #b1cbc9;
+    --muted-green: #83a091;
+    --medium-gray: #828282;
+    --medium-red: #eb9f96;
+    --medium-orange: #ffbf91;
+    --dark-gray: #404040;
+    --bright-magneta: #ff00e3;
+    --pink-peacock: #c83e74;
+    --bright-pink: #ff6872;
+    --living-coral: #fc766a;
+    --coral-cloud: #E5AEA1;
+    --sweet-lilac: #e7b7cf;
+    --sweet-corn: #f2edd7;
+    --citron-tint: #e5e099;
+    --lemon: #e7ec96;
+    --citron: #e7ec7b;
+    --aspen-gold: #fed65e;
+    --butterscotch: #f8bb57;
+    --tumeric: #ff842a;
+    --bright-orange: #ff8566;
+    --burnt-orange: #f08b6d;
+    --fiesta-red: #de4d44;
+    --jester-red: #9e3744;
+    --bright-purple: #3f00c5;
+    --princess-blue: #2e5d9f;
+    --eclipse: #3b3a50;
+    --muted-navy: #282a41;
+    --bright-navy: #1b1f3a;
+    --royal-blue: #353f7c;
+    --dark-blue: #104878;
+    --mermaid-green: #4e9796;
+    --emerald-green: #005147;
+    --purple-black: #02031c;
+    --charcoal: #1d2b30;
+    height: 100vh;
+}
+
+#nav{
+    justify-content: flex-end;
+}
+.nav{
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--eclipse);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: var(--eclipse) !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: var(--muted-teal) !important;
+}
+
+ul.nav li.active a {
+    color: var(--muted-teal) !important;
+}
+
+.menu{
+    margin: 0 auto;
+    padding-top: 5%;
+}
+.menu-list{
+    margin-bottom: 5%;
+}
+
+#menu-header{
+    color: var(--warm-white);
+    background-image: url("https://b.zmtcdn.com/data/res_imagery/16917140_RESTAURANT_7ca0c450f03b852ac92ac2defcf1281c.jpg");
+    margin: 0 auto;
+}
+
+.menu-subheader{
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 32px;
+    margin-bottom: 0%;
+    color: var(--medium-red);
+}
+.listItem{
+    font-family: cronos-pro-caption, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--eclipse);
+    font-size: 18px;
+    display: flex;
+    margin-bottom: .25%;
+}
+.underline{
+    height: .25em;
+    background: var(--medium-red);
+    margin-bottom: 2%;
+}
+
+.price{
+    display: flex;
+    justify-content: flex-end;
+}
+.item{
+    padding-left: 0%;
+}
