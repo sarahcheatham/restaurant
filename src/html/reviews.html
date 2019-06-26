@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../css/reviews.css">
     <link rel="stylesheet" href="https://use.typekit.net/cds2fzg.css">
     <title></title>
 </head>
 <body>
     <div class="container">
-        <div class="row justify-content-space-evenly bar bar-2 hidden-xs" id="nav">
+        <div class="row justify-content-space-evenly bar bar-2 hidden-xs" id="nav-reviews">
             <ul class="nav">
                 <li class="nav-item">
                     <a class="nav-link active" href="../index.html">HOME</a>
@@ -27,8 +28,32 @@
                 </li>  
             </ul>
         </div>
+
+        <div class="row justify-content-center header" id="header"></div>
+        <div class="row justify-content-center review-header">REVIEWS</div>
+        <div class="row justify-content-center">
+            <div class="col-8 review-container">
+                <div id="stars">
+                    <canvas id="canvas-0" width=50 height=50></canvas>
+                    <canvas id="canvas-1" width=50 height=50></canvas>
+                    <canvas id="canvas-2" width=50 height=50></canvas>
+                    <canvas id="canvas-3" width=50 height=50></canvas>
+                    <canvas id="canvas-4" width=50 height=50></canvas>
+                </div> 
+                <div id="review"></div>
+            </div>
+        </div>
+        
+
+        <div class="container" id="highlights"></div>
+
+        <div class="container footer">
+            <div class="row justify-content-center" id="address"></div>
+            <div class="row justify-content-center" id="phone-number"></div>
+        </div>
     </div>
 
-    <script src="../index.js"></script>
+    <script src="../js/reviews.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 </body>
 </html>

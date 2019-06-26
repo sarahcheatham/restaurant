@@ -1,0 +1,95 @@
+:root {
+    --white: #fff;
+    --warm-white: #fdfbed;
+    --white-yellow: #fefef3;
+    --white-pink: #f0e6e3;
+    --white-blue: #E5EBEF;
+    --white-gray: #e4e4e2;
+    --white-teal: #e8f7f0;
+    --white-green: #e0e7e3;
+    --light-green: #ddeeda;
+    --light-pink: #efd7d0;
+    --light-coral: #ffe3d1;
+    --light-peach: #f7e8c9;
+    --light-gray: #d1d0ca;
+    --muted-blue: #abb8bf;
+    --muted-teal: #b1cbc9;
+    --muted-green: #83a091;
+    --medium-gray: #828282;
+    --medium-red: #eb9f96;
+    --medium-orange: #ffbf91;
+    --sand: #e9d8a8;
+    --dark-gray: #404040;
+    --bright-magneta: #ff00e3;
+    --pink-peacock: #c83e74;
+    --bright-pink: #ff6872;
+    --living-coral: #fc766a;
+    --coral-cloud: #E5AEA1;
+    --sweet-lilac: #e7b7cf;
+    --sweet-corn: #f2edd7;
+    --citron-tint: #e5e099;
+    --lemon: #e7ec96;
+    --citron: #e7ec7b;
+    --aspen-gold: #fed65e;
+    --butterscotch: #f8bb57;
+    --tumeric: #ff842a;
+    --bright-orange: #ff8566;
+    --burnt-orange: #f08b6d;
+    --fiesta-red: #de4d44;
+    --jester-red: #9e3744;
+    --bright-purple: #3f00c5;
+    --princess-blue: #2e5d9f;
+    --eclipse: #3b3a50;
+    --muted-navy: #282a41;
+    --bright-navy: #1b1f3a;
+    --royal-blue: #353f7c;
+    --dark-blue: #104878;
+    --mermaid-green: #4e9796;
+    --emerald-green: #005147;
+    --purple-black: #02031c;
+    --charcoal: #1d2b30;
+    /* height: 100vh; */
+}
+
+#nav-reviews{
+    justify-content: flex-end;
+    margin-bottom: 0%;
+}
+.review-container{
+    border: 1px solid var(--aspen-gold);
+    border-radius: 5px;
+    padding: 5%;
+    margin-bottom: 5%;
+    
+}
+.review-header{
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+    margin-bottom: 2%;
+}
+
+#review{
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+#stars{
+    display: flex;
+    justify-content: center;
+}
+
+#highlights{
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--medium-gray);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.highlight-item{
+    display: flex;
+    justify-content: center;
+}
