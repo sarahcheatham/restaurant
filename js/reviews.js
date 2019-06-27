@@ -70,127 +70,13 @@ setTimeout(()=>{
         }
         drawStar(25,25,5,15,7.5);
     }
-    console.log(rating)
-    if(rating === 5){
-        drawStars("canvas-0")
-        drawStars("canvas-1")
-        drawStars("canvas-2")
-        drawStars("canvas-3")
-        drawStars("canvas-4") 
-    } else if (rating === 4){
-        drawStars("canvas-0")
-        drawStars("canvas-1")
-        drawStars("canvas-2")
-        drawStars("canvas-3")
-    } else if (rating === 3){
-        drawStars("canvas-0")
-        drawStars("canvas-1")
-        drawStars("canvas-2")
-    } else if (rating === 2){
-        drawStars("canvas-0")
-        drawStars("canvas-1")
-    } else if (rating === 1){
-        drawStars("canvas-0")
-    }
-  
-    
-    // switch (rating) {
-    //     case value1:
-    //       //Statements executed when the
-    //       //result of expression matches value1
-    //       [break;]
-    //     case value2:
-    //       //Statements executed when the
-    //       //result of expression matches value2
-    //       [break;]
-    //     ...
-    //     case valueN:
-    //       //Statements executed when the
-    //       //result of expression matches valueN
-    //       [break;]
-    //     [default:
-    //       //Statements executed when none of
-    //       //the values match the value of the expression
-    //       [break;]]
-    //   }
-    // drawStars("canvas-0")
-    // drawStars("canvas-1")
-    // drawStars("canvas-2")
-    // drawStars("canvas-3")
-    // drawStars("canvas-4")
+    drawStars("canvas-0")
+    drawStars("canvas-1")
+    drawStars("canvas-2")
+    drawStars("canvas-3")
+    drawStars("canvas-4") 
 }, 2000)
-// const drawStars = (id) => {
-//     console.log("id:", id)
-//     const canvas = document.getElementById(id);
-//     const ctx = canvas.getContext("2d"); 
-//     const drawStar = (cx,cy,spikes,outerRadius,innerRadius) => {
-//         let rot = Math.PI / 2*3;
-//         let x = cx;
-//         let y = cy;
-//         let step = Math.PI / spikes;
-    
-//         ctx.beginPath();
-//         ctx.moveTo(cx,cy-outerRadius)
-//         for(i = 0; i < spikes; i++){
-//             x = cx + Math.cos(rot) * outerRadius;
-//             y = cy + Math.sin(rot) * outerRadius;
-//             ctx.lineTo(x,y)
-//             rot += step
-    
-//             x = cx + Math.cos(rot) * innerRadius;
-//             y = cy + Math.sin(rot) * innerRadius;
-//             ctx.lineTo(x,y)
-//             rot += step
-//         }
-//         ctx.lineTo(cx,cy-outerRadius);
-//         ctx.closePath();
-//         ctx.lineWidth = 5;
-//         ctx.strokeStyle = '#e7ec96';
-//         ctx.stroke();
-//         ctx.fillStyle = '#e7ec7b';
-//         ctx.fill();
-//     }
-//     drawStar(25,25,5,15,7.5);
-// }
-// drawStars("canvas-0")
-// drawStars("canvas-1")
-// drawStars("canvas-2")
-// drawStars("canvas-3")
-// drawStars("canvas-4")
 
-
-// const canvas = document.getElementById('canvas-0');
-// const ctx = canvas0.getContext("2d");
-
-// const drawStar = (cx,cy,spikes,outerRadius,innerRadius) => {
-//     let rot = Math.PI / 2*3;
-//     let x = cx;
-//     let y = cy;
-//     let step = Math.PI / spikes;
-
-//     ctx.beginPath();
-//     ctx.moveTo(cx,cy-outerRadius)
-//     for(i = 0; i < spikes; i++){
-//         x = cx + Math.cos(rot) * outerRadius;
-//         y = cy + Math.sin(rot) * outerRadius;
-//         ctx.lineTo(x,y)
-//         rot += step
-
-//         x = cx + Math.cos(rot) * innerRadius;
-//         y = cy + Math.sin(rot) * innerRadius;
-//         ctx.lineTo(x,y)
-//         rot += step
-//     }
-//     ctx.lineTo(cx,cy-outerRadius);
-//     ctx.closePath();
-//     ctx.lineWidth = 5;
-//     ctx.strokeStyle = '#e7ec96';
-//     ctx.stroke();
-//     ctx.fillStyle = '#e7ec7b';
-//     ctx.fill();
-// }
-
-// drawStar(25,25,5,15,7.5);
 
 
 

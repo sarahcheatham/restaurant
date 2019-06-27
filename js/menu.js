@@ -18,10 +18,4 @@ fetch("https://developers.zomato.com/api/v2.1/restaurant?res_id=16917140", optio
 
     const phoneNumber = document.getElementById("menu-phone-number")
     phoneNumber.innerHTML = data.phone_numbers;
-})
-
-// setTimeout(() => {
-//     const header = document.getElementById("menu-header");
-//     header.style.backgroundImage = background;
-//     console.log(header.style.backgroundImage)
-// }, 2000)
+});

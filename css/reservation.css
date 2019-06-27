@@ -48,14 +48,16 @@
     --emerald-green: #005147;
     --purple-black: #02031c;
     --charcoal: #1d2b30;
-    /* height: 100vh; */
+    height: 100vh;
+    font-size: 12px;
 }
 #reservation-header{
     margin-bottom: 1%;
 }
 #nav-reservation{
-    justify-content: flex-end;
+    justify-content: center;
     margin-bottom: 0%;
+    font-size: 1.25em;
 }
 #form{
     justify-content: center;
@@ -65,17 +67,37 @@
     padding: 2%;
     font-family: futura-pt, sans-serif;
     font-weight: 300;
+    font-size: 1.25em;
     font-style: normal;
     border-radius: 5%;
     color: var(--medium-gray);
 }
 #form-header{
     text-align: center;
-    font-size: 28px;
+    font-size: 1.75em;
     margin-bottom: 1%;
 }
-.submit{
+#submit{
     background: var(--muted-green);
     color: var(--white-yellow);
     justify-self: center;
+    font-size: 1.25em;
+}
+
+@media (max-width: 400px) {
+    #reservation-header{
+        font-size: 3em;
+    }
+    #nav-reservation{
+        font-size: 1em;
+    }
+    #form-header{
+        font-size: 1.25em;
+    }
+    #submit{
+        font-size: 1em;
+    }
+    .footer{
+        font-size: 1em;
+    }
 }

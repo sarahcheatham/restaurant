@@ -48,11 +48,12 @@
     --emerald-green: #005147;
     --purple-black: #02031c;
     --charcoal: #1d2b30;
-    /* height: 100vh; */
+    height: 100vh;
+    font-size: 12px;
 }
 
 #nav-reviews{
-    justify-content: flex-end;
+    justify-content: center;
     margin-bottom: 0%;
 }
 .review-container{
@@ -66,7 +67,7 @@
     font-family: futura-pt, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 28px;
+    font-size: 2.5em;
     margin-bottom: 2%;
 }
 
@@ -74,7 +75,7 @@
     font-family: mr-eaves-sans, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 18px;
+    font-size: 1.25em;
 }
 #stars{
     display: flex;
@@ -92,4 +93,18 @@
 .highlight-item{
     display: flex;
     justify-content: center;
+}
+@media (max-width: 400px) {
+    .review-header{
+        font-size: 1.75em;
+    }
+    #review{
+        font-size: 1em;
+    }
+    #highlights{
+        font-size: .75em;
+    }
+    .footer{
+        font-size: 1em;
+    }
 }

@@ -47,15 +47,17 @@
     --purple-black: #02031c;
     --charcoal: #1d2b30;
     height: 100vh;
+    font-size: 12px;
 }
 
 #nav{
-    justify-content: flex-end;
+    justify-content: center;
 }
 .nav{
     font-family: futura-pt, sans-serif;
     font-weight: 300;
     font-style: normal;
+    font-size: 1.25em;
     color: var(--eclipse);
     margin-top: 2%;
     margin-bottom: 2%;
@@ -91,7 +93,7 @@ ul.nav li.active a {
     font-family: mr-eaves-sans, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 32px;
+    font-size: 3em;
     margin-bottom: 0%;
     color: var(--medium-red);
 }
@@ -100,7 +102,7 @@ ul.nav li.active a {
     font-weight: 300;
     font-style: normal;
     color: var(--eclipse);
-    font-size: 18px;
+    font-size: 1.25em;
     display: flex;
     margin-bottom: .25%;
 }
@@ -116,4 +118,22 @@ ul.nav li.active a {
 }
 .item{
     padding-left: 0%;
+}
+
+@media (max-width: 400px) {
+    .header{
+        font-size: 3em;
+    }
+    .nav{
+        font-size: 1em;
+    }
+    .menu-subheader{
+        font-size: 2em;
+    }
+    .listItem{
+        font-size: 1em;
+    }
+    .footer{
+        font-size: 1em;
+    }
 }
