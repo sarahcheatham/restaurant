@@ -14,7 +14,7 @@ fetch("https://developers.zomato.com/api/v2.1/restaurant?res_id=16917140", optio
    
 
     const address = document.getElementById("menu-address");
-    address.innerHTML = data.location.address
+    address.innerHTML = data.location.address;
 
     const phoneNumber = document.getElementById("menu-phone-number")
     phoneNumber.innerHTML = data.phone_numbers;
