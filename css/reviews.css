@@ -56,6 +56,21 @@
     justify-content: center;
     margin-bottom: 0%;
 }
+
+.our-bbq-header{
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.5em;
+    margin-bottom: 2%;
+}
+.story{
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.25em;
+    margin-bottom: 2%;
+}
 .review-container{
     border: 1px solid var(--aspen-gold);
     border-radius: 5px;
@@ -106,5 +121,11 @@
     }
     .footer{
         font-size: 1em;
+    }
+    .story{
+        font-size: 1em; 
+    }
+    .our-bbq-header{
+        font-size: 1.75em;
     }
 }

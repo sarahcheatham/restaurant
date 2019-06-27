@@ -47,6 +47,7 @@
     --emerald-green: #005147;
     --purple-black: #02031c;
     --charcoal: #1d2b30;
+    --sand: #e9d8a8;
     height: 100vh;
     font-size: 12px;
 }
@@ -107,7 +108,148 @@ ul.nav li.active a {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+/* menu page */
+#nav{
+    justify-content: center;
+}
+.menu{
+    margin: 0 auto;
+    padding-top: 5%;
+}
+.menu-list{
+    margin-bottom: 5%;
+}
+
+#menu-header{
+    color: var(--warm-white);
+    background-image: url("https://b.zmtcdn.com/data/res_imagery/16917140_RESTAURANT_7ca0c450f03b852ac92ac2defcf1281c.jpg");
+    margin: 0 auto;
+}
+
+.menu-subheader{
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 3em;
+    margin-bottom: 0%;
+    color: var(--medium-red);
+}
+.listItem{
+    font-family: cronos-pro-caption, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--eclipse);
+    font-size: 1.25em;
+    display: flex;
+    margin-bottom: .25%;
+}
+.underline{
+    height: .25em;
+    background: var(--medium-red);
+    margin-bottom: 2%;
+}
+
+.price{
+    display: flex;
+    justify-content: flex-end;
+}
+.item{
+    padding-left: 0%;
+}
+/* reservation page */
+#reservation-header{
+    margin-bottom: 1%;
+}
+#nav-reservation{
+    justify-content: center;
+    margin-bottom: 0%;
+    font-size: 1.25em;
+}
+#form{
+    justify-content: center;
+    /* background: var(--citron-tint); */
+    background: var(--sand);
+    margin: 0 auto;
+    padding: 2%;
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-size: 1.25em;
+    font-style: normal;
+    border-radius: 5%;
+    color: var(--medium-gray);
+}
+#form-header{
+    text-align: center;
+    font-size: 1.75em;
+    margin-bottom: 1%;
+}
+#submit{
+    background: var(--muted-green);
+    color: var(--white-yellow);
+    justify-self: center;
+    font-size: 1.25em;
+}
+/* reviews page */
+#nav-reviews{
+    justify-content: center;
+    margin-bottom: 0%;
+}
+
+.our-bbq-header{
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.5em;
+    margin-bottom: 2%;
+}
+.story{
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.25em;
+    margin-bottom: 2%;
+}
+.review-container{
+    border: 1px solid var(--aspen-gold);
+    border-radius: 5px;
+    padding: 5%;
+    margin-bottom: 5%;
+    
+}
+.review-header{
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.5em;
+    margin-bottom: 2%;
+}
+
+#review{
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.25em;
+}
+#stars{
+    display: flex;
+    justify-content: center;
+}
+
+#highlights{
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--medium-gray);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.highlight-item{
+    display: flex;
+    justify-content: center;
+}
+
 @media (max-width: 400px) {
+    /* index */
     .header{
         font-size: 3em;
     }
@@ -116,6 +258,42 @@ ul.nav li.active a {
     }
     .footer{
         font-size: 1em;
+    }
+    /* menu */
+    .menu-subheader{
+        font-size: 2em;
+    }
+    .listItem{
+        font-size: 1em;
+    }
+    /* reservation */
+    #reservation-header{
+        font-size: 3em;
+    }
+    #nav-reservation{
+        font-size: 1em;
+    }
+    #form-header{
+        font-size: 1.25em;
+    }
+    #submit{
+        font-size: 1em;
+    }
+    /* reviews */
+    .review-header{
+        font-size: 1.75em;
+    }
+    #review{
+        font-size: 1em;
+    }
+    #highlights{
+        font-size: .75em;
+    }
+    .story{
+        font-size: 1em; 
+    }
+    .our-bbq-header{
+        font-size: 1.75em;
     }
 }
     
